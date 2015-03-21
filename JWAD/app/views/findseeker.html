@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 well" align="center">
+                <h1>Find Seekers Page</h1>
+                <h3>View All Current Job Seekers!</h3>
+                <button class="btn btn-primary" ng-click="loadSeekers()"> Click to display resumes</button>
+            </div>
+                <div class="col-md-8" ng-repeat="s in seekers">
+                    <ul>
+                        <li>
+                            <h3>Candidate Name: {{s.FirstName}}&nbsp;{{s.LastName}} &nbsp; Resume: {{s.Resume}}</h3></li>
+                    </ul>
+                </div>
+           
+        </div>
+    </div>
+</body>
+</html>

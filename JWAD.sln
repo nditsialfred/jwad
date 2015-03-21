@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWAD", "JWAD\JWAD.csproj", "{1D6C33D5-9D41-45EC-AF9C-F76CE4C48D3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{68145E01-B9C6-41EF-B4F1-7E2C5837FF5E}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{EBEADF00-9639-4532-8026-2D105821CD13}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\JWAD-WAWS-dev.json = PublishScripts\Configurations\JWAD-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWAD.Data.Model", "JWAD.Data.Model\JWAD.Data.Model.csproj", "{C3E84696-F763-495A-9F70-A718FAC1B20C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JWAD.Data", "JWAD.Data\JWAD.Data.csproj", "{ACEB6A05-E9FC-4F20-83D4-BFCB41D0F0E6}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs28
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = JWAD\\JWAD.csproj
+		SccProjectName1 = JWAD
+		SccLocalPath1 = JWAD
+		SccProjectUniqueName2 = JWAD.Data.Model\\JWAD.Data.Model.csproj
+		SccProjectName2 = JWAD.Data.Model
+		SccLocalPath2 = JWAD.Data.Model
+		SccProjectUniqueName3 = JWAD.Data\\JWAD.Data.csproj
+		SccProjectName3 = JWAD.Data
+		SccLocalPath3 = JWAD.Data
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D6C33D5-9D41-45EC-AF9C-F76CE4C48D3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D6C33D5-9D41-45EC-AF9C-F76CE4C48D3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D6C33D5-9D41-45EC-AF9C-F76CE4C48D3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D6C33D5-9D41-45EC-AF9C-F76CE4C48D3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3E84696-F763-495A-9F70-A718FAC1B20C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3E84696-F763-495A-9F70-A718FAC1B20C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3E84696-F763-495A-9F70-A718FAC1B20C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3E84696-F763-495A-9F70-A718FAC1B20C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACEB6A05-E9FC-4F20-83D4-BFCB41D0F0E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACEB6A05-E9FC-4F20-83D4-BFCB41D0F0E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACEB6A05-E9FC-4F20-83D4-BFCB41D0F0E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACEB6A05-E9FC-4F20-83D4-BFCB41D0F0E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EBEADF00-9639-4532-8026-2D105821CD13} = {68145E01-B9C6-41EF-B4F1-7E2C5837FF5E}
+	EndGlobalSection
+EndGlobal

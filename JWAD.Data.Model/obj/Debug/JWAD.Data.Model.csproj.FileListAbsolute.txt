@@ -1,0 +1,14 @@
+C:\Users\Owner\Documents\Visual Studio 2013\Projects\JWAD\JWAD.Data.Model\bin\Debug\JWAD.Data.Model.dll.config
+C:\Users\Owner\Documents\Visual Studio 2013\Projects\JWAD\JWAD.Data.Model\bin\Debug\JWAD.Data.Model.dll
+C:\Users\Owner\Documents\Visual Studio 2013\Projects\JWAD\JWAD.Data.Model\bin\Debug\JWAD.Data.Model.pdb
+C:\Users\Owner\Documents\Visual Studio 2013\Projects\JWAD\JWAD.Data.Model\bin\Debug\EntityFramework.dll
+C:\Users\Owner\Documents\Visual Studio 2013\Projects\JWAD\JWAD.Data.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Owner\Documents\Visual Studio 2013\Projects\JWAD\JWAD.Data.Model\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Owner\Documents\Visual Studio 2013\Projects\JWAD\JWAD.Data.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Owner\Documents\Visual Studio 2013\Projects\JWAD\JWAD.Data.Model\bin\Debug\EntityFramework.xml
+C:\Users\Owner\Documents\Visual Studio 2013\Projects\JWAD\JWAD.Data.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Owner\Documents\Visual Studio 2013\Projects\JWAD\JWAD.Data.Model\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Owner\Documents\Visual Studio 2013\Projects\JWAD\JWAD.Data.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Owner\Documents\Visual Studio 2013\Projects\JWAD\JWAD.Data.Model\obj\Debug\JWAD.Data.Model.csprojResolveAssemblyReference.cache
+C:\Users\Owner\Documents\Visual Studio 2013\Projects\JWAD\JWAD.Data.Model\obj\Debug\JWAD.Data.Model.dll
+C:\Users\Owner\Documents\Visual Studio 2013\Projects\JWAD\JWAD.Data.Model\obj\Debug\JWAD.Data.Model.pdb

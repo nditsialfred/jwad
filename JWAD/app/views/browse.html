@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+<div class="row">
+    <div class="col-md-12">
+        <div ng-init="loadjobs()"></div>
+        <h1> Open Jobs <button class="btn btn-info" ng-click="loadJobs()">List Jobs</button>
+        </h1>
+
+
+    </div>
+        <div class="col-md-6">
+            <ul ng-repeat="job in jobs" style="list-style-type: none">
+                <li>
+                    <h4>Job Title: {{job.JobTitle}}&nbsp; Location: {{job.JobCity}}, {{job.JobState}}&nbsp; </h4>
+                    <h3> Job Description:</h3>
+                    <p> {{job.JobDescription}} </p>
+                    <button class="btn btn-warning btn-sm"><span class="glyphicon glyphicon-star" aria-hidden="true"></span></button>
+                    <button class="btn btn-danger btn-sm" ng-click="delete(job)">Delete</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>

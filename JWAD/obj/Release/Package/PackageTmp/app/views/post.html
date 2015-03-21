@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="JWAD">
+<head>
+    <title>Post Jobs</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="row well">
+       
+                <div class="col-sm-6" style="margin-top: 19px">
+                    <h2>{{puzzleGreeting}}</h2> <br />
+                    <img src="{{puzzleImage}}" width="420px" height="400px" />
+                </div>
+
+                <div class="well">
+                    <div class="col-sm-6">
+
+
+                        <h3>{{header}}</h3>
+                        <div class="form-group">
+                            <label for="title">Job Title:</label>
+                            <input ng-model="jobForm.title" type="text" class="form-control" id="title">
+                        </div>
+                        <div class="form-group">
+                            <label for="salary">Salary Range:</label>
+                            <select ng-model="jobForm.salary" type="number" class="form-control" id="salary">
+                                <option value="30000">$0 - $30,000</option>
+                                <option value="60000">$30000 - $60,000</option>
+                                <option value="900000">$60,000 - $90,000</option>
+                                <option value="120000">$90,000 - $120,000</option>
+                                <option value="149999">$120,000 - $150,000</option>
+                                <option value="150000">$150,000+</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="city">City:</label>
+                            <input ng-model="jobForm.city" type="text" class="form-control" id="city">
+                        </div>
+                        <div class="form-group">
+                            <label for="zip">Zip:</label>
+                            <input ng-model="jobForm.zip" type="text" class="form-control" id="zip">
+                        </div>
+                        <div class="form-group">
+                            <label for="state">State: <span>*</span></label>
+                            <select ng-model="jobForm.state" class="form-control">
+                                <option value="Anywhere">No Location Specified</option>
+                                <option value="AL">AL</option>
+                                <option value="AK">AK</option>
+                                <option value="AZ">AZ</option>
+                                <option value="AR">AR</option>
+                                <option value="CA">CA</option>
+                                <option value="CO">CO</option>
+                                <option value="CT">CT</option>
+                                <option value="DE">DE</option>
+                                <option value="DC">DC</option>
+                                <option value="FL">FL</option>
+                                <option value="GA">GA</option>
+                                <option value="HI">HI</option>
+                                <option value="ID">ID</option>
+                                <option value="IL">IL</option>
+                                <option value="IN">IN</option>
+                                <option value="IA">IA</option>
+                                <option value="KS">KS</option>
+                                <option value="KY">KY</option>
+                                <option value="LA">LA</option>
+                                <option value="ME">ME</option>
+                                <option value="MD">MD</option>
+                                <option value="MA">MA</option>
+                                <option value="MI">MI</option>
+                                <option value="MN">MN</option>
+                                <option value="MS">MS</option>
+                                <option value="MO">MO</option>
+                                <option value="MT">MT</option>
+                                <option value="NE">NE</option>
+                                <option value="NV">NV</option>
+                                <option value="NH">NH</option>
+                                <option value="NJ">NJ</option>
+                                <option value="NM">NM</option>
+                                <option value="NY">NY</option>
+                                <option value="NC">NC</option>
+                                <option value="ND">ND</option>
+                                <option value="OH">OH</option>
+                                <option value="OK">OK</option>
+                                <option value="OR">OR</option>
+                                <option value="PA">PA</option>
+                                <option value="RI">RI</option>
+                                <option value="SC">SC</option>
+                                <option value="SD">SD</option>
+                                <option value="TN">TN</option>
+                                <option value="TX">TX</option>
+                                <option value="UT">UT</option>
+                                <option value="VT">VT</option>
+                                <option value="VA">VA</option>
+                                <option value="WA">WA</option>
+                                <option value="WV">WV</option>
+                                <option value="WI">WI</option>
+                                <option value="WY">WY</option>
+                            </select>
+                            <!--<input ng-model="jobForm.state" type="text" class="form-control" id="state">-->
+                        </div>
+                        <div class="form-group">
+                            <label for="description">Job Description:</label>
+                            <textarea ng-model="jobForm.jobDescription" class="form-control" rows="20" id="description"></textarea>
+                        </div>
+                        <button class="btn btn-info" ng-click="postJob()"> Post Job </button>
+
+                    </div>
+                </div>
+            
+        </div>
+    </div>
+</body>
+</html>
